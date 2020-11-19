@@ -21847,6 +21847,16 @@
         <exampleNumber>9061234</exampleNumber>
         <nationalNumberPattern>90[069]\d{4,7}</nationalNumberPattern>
       </premiumRate>
+            <!-- 0970 numbers (12 digits) are used for (location independent) mobile numbers.
+           This is an extension to 06 numbers (10 digits). 
+           These are used for Human to Human (H2H), Human to Machine (H2M), Machine to Human (M2H)
+           and Machine to Machine (M2M) communication.
+           There is no information about the type of usage available. -->
+      <mobile>
+        <possibleLengths national="11"/>
+        <exampleNumber>97012345678</exampleNumber>
+        <nationalNumberPattern>970\d{8}</nationalNumberPattern>
+      </mobile>
       <voip>
         <possibleLengths national="9"/>
         <exampleNumber>851234567</exampleNumber>
